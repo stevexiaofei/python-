@@ -1,4 +1,4 @@
-# Initial page
+# python note
 
 ## Getting Super Powers
 

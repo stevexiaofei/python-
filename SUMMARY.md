@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [python note](README.md)
 * [Untitled](untitled.md)
 * [前言](untitled-1.md)
 
