@@ -42,7 +42,38 @@ pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 * _**conda env list 或 conda info -e 查看当前存在哪些虚拟环境**_
 * _**conda update conda 检查更新当前conda**_
 * _**conda create -n your\_env\_name python=X.X 新建conda环境**_
-* _**conda remove -n env\_name --al**_
+* _**conda remove -n env\_name --all**_
 
-_\*\*\*\*_
+## jupyter notebook
+
+### 带参数启动jupyter notebook
+
+```c
+jupyter notebook --no-browser --port 6000 --ip=202.121.181.3
+```
+
+### 修改jupyter notebook的启动配置文件
+
+1. `jupyter notebook --generate-config` 生成的配置文件在~/.jupyter/jupyter\_notebook\_config.py
+2. 设置密码  ****`jupyter notebook password`
+3. 修改文件
+
+```c
+vim ~/.jupyter/jupyter_notebook_config.py
+c.NotebookApp.ip = '*' # 开启所有的IP访问，即可使用远程访问
+c.NotebookApp.open_browser = False # 关闭启动后的自动开启浏览器
+c.NotebookApp.port = 8888  # 设置端口8888，也可用其他的，比如1080，8080等等
+c.NotebookApp.notebook_dir = '指定的工作路径'”可以改变jupyter开始运行时的工作目录
+```
+
+### jupyter kernel的操作
+
+* 移除kernel `jupyter kernelspec remove python3`
+* 添加kernel 的方法`python -m ipykernel install –user --name XXXX`
+* 查看kernel `jupyter kernelspec list`
+* [matlab kernel的安装](https://www.zhihu.com/question/65744778)
+
+
+
+
 
