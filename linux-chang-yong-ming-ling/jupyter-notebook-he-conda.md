@@ -38,5 +38,11 @@ pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## conda相关的常用命令
 
+* _**conda list 查看安装了那些包**_
+* _**conda env list 或 conda info -e 查看当前存在哪些虚拟环境**_
+* _**conda update conda 检查更新当前conda**_
+* _**conda create -n your\_env\_name python=X.X 新建conda环境**_
+* _**conda remove -n env\_name --al**_
 
+_\*\*\*\*_
 
