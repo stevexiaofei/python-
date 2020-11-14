@@ -1,7 +1,6 @@
 # Table of contents
 
 * [python note](README.md)
-* [Untitled](untitled.md)
 * [前言](untitled-1.md)
 
 ## Python基本知识 <a id="linux-chang-yong-ming-ling"></a>
