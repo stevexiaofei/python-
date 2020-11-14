@@ -44,7 +44,7 @@ pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 * _**conda create -n your\_env\_name python=X.X 新建conda环境**_
 * _**conda remove -n env\_name --all**_
 
-## jupyter notebook
+## jupyter notebook\([参考链接](https://juejin.im/post/6844903842497167374)\)
 
 ### 带参数启动jupyter notebook
 
