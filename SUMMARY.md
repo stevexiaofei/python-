@@ -14,3 +14,7 @@
 
 * [Untitled](python-di-san-fang-ku-xue-xi/untitled.md)
 
+## 有用的python代码片段集棉
+
+* [python服务](you-yong-de-python-dai-ma-pian-duan-ji-mian/python-fu-wu.md)
+
