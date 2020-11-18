@@ -12,7 +12,7 @@
 
 ## python第三方库学习
 
-* [Untitled](python-di-san-fang-ku-xue-xi/untitled.md)
+* [numpy+scipy](python-di-san-fang-ku-xue-xi/untitled.md)
 
 ## 有用的python代码片段集棉
 
