@@ -9,6 +9,7 @@
 * [Python封装成可执行文件](linux-chang-yong-ming-ling/python-feng-zhuang-cheng-ke-zhi-hang-wen-jian.md)
 * [Python的包导入机制](linux-chang-yong-ming-ling/untitled.md)
 * [Python自定义包的打包和发布](linux-chang-yong-ming-ling/python-zi-ding-yi-bao-de-da-bao-he-fa-bu.md)
+* [python加速](linux-chang-yong-ming-ling/python-jia-su.md)
 
 ## python第三方库学习
 
